@@ -1,0 +1,40 @@
+  <h2 class="major">Test 5</h2>
+
+  <p>Let me do something</p>
+
+  
+
+<div id="disqus_thread"></div>
+<script>
+/**
+ *  RECOMMENDED CONFIGURATION VARIABLES:
+ *  EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+ *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT:
+ *      https://disqus.com/admin/universalcode/#configuration-variables
+ */
+var disqus_config = function () {
+  this.page.url = 'https://fsmonguia.github.io/2018/10/10/test-5.html';
+  this.page.identifier = 'https://fsmonguia.github.io/2018/10/10/test-5.html';
+  this.page.title = 'Test 5';
+  console.log(this.page.title);
+};
+
+if (window.DISQUS) {
+  DISQUS.reset({
+    reload: true,
+    config: disqus_config
+  });
+} else {
+  var load_disqus = function () {
+    var d = document;
+    var s = d.createElement('script');
+    s.src = 'https://finite-state-machine.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', + new Date());
+    (d.head || d.body).appendChild(s);
+  };
+  load_disqus();
+}
+
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
